@@ -1,7 +1,7 @@
 package models
 
 import "time"
-
+//coba tesy
 type Queue struct {
 	ID            uint       `gorm:"primaryKey" json:"id"`
 	CounterID     uint       `json:"counter_id"`
